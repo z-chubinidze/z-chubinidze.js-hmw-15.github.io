@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+@font-face{
+    font-family:'Inter-Regular';
+    src:url(Inter-Regular.ttf)
+}
+.click-button .btnn{
+    background-color:#1D9BF0;
+    font-family:'Inter-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    border: none;
+    outline: 0;
+    padding: 20px 69px;
+    border-radius: 20px;
+}
+.click-button{
+    height: 100vh;
+}
+.background-box{
+    position: absolute;
+    left:0;
+    right: 0;
+    top:0;
+    height: 100vh;
+    background: rgba(32, 32, 32, 0.3);
+}
+@-webkit-keyframes fade{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
+}
+.background-box .twiter-box{
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 31px 58px;
+}
+.twiter-box  p{
+    font-family:'Inter-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.twiter-box  h5{
+    font-family:'Inter-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 32px;
+}
+.twiter-box  .button-1{
+    background: #000000;
+    border-radius: 100px;
+    font-family:'Inter-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding-top: 23px;
+    padding-bottom: 22px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.twiter-box  .button-2{
+    background: transparent;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    font-family:'Inter-Regular';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    padding-top: 23px;
+    padding-bottom: 22px;
+}
